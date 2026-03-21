@@ -1,0 +1,11 @@
+start: q0
+accept: q2
+
+# Cadenas sobre {a,b} que terminan en "ab"
+# Formato (3 columnas): estado  simbolo  siguiente
+1 q0 a q1
+2 q0 b q0
+3 q1 a q1
+4 q1 b q2
+5 q2 a q1
+6 q2 b q0

@@ -1,0 +1,11 @@
+# Cadenas de prueba - terminan en "ab"
+ab
+aab
+bab
+aaab
+aabab
+a
+b
+ba
+abb
+baaa
