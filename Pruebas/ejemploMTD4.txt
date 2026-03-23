@@ -1,0 +1,7 @@
+start: 0
+accept: halt-accept
+reject: halt-reject
+blank: _
+
+0 1 1 * halt-accept
+0 _ _ r 0

@@ -1,0 +1,40 @@
+start: q0
+accept: halt-accept
+reject: halt-reject
+blank: _
+
+q0 X X r q0
+q0 Y Y r q0
+q0 0 X r q1
+q0 1 Y r q2
+q0 _ _ * halt-accept
+
+q1 0 0 r q1
+q1 1 1 r q1
+q1 X X r q1
+q1 Y Y r q1
+q1 _ _ l q3
+
+q2 0 0 r q2
+q2 1 1 r q2
+q2 X X r q2
+q2 Y Y r q2
+q2 _ _ l q4
+
+q3 X X l q3
+q3 Y Y l q3
+q3 0 X l q5
+q3 _ _ * halt-accept
+q3 1 1 * halt-reject
+
+q4 X X l q4
+q4 Y Y l q4
+q4 1 Y l q5
+q4 _ _ * halt-accept
+q4 0 0 * halt-reject
+
+q5 0 0 l q5
+q5 1 1 l q5
+q5 X X l q5
+q5 Y Y l q5
+q5 _ _ r q0
