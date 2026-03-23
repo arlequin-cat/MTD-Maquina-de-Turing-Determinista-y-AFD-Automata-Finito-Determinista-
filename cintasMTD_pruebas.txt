@@ -1,0 +1,16 @@
+# Pruebas funcionales MTD
+# Espacio se convierte a blanco '_'
+ 1
+ 11
+ 111
+
+# Con posicion inicial marcada con *
+* 1
+* 11
+* 111
+
+# Usando _ explicito como blanco
+_1
+_11
+*_1
+*_11

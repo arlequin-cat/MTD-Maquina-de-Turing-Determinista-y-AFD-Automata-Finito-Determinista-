@@ -1,0 +1,46 @@
+PRUEBAS RECOMENDADAS PARA EL SIMULADOR
+======================================
+
+1) Deteccion automatica del tipo
+--------------------------------
+python simulador.py ejemploAFD.txt cintasAFD_pruebas.txt
+python simulador.py ejemploMTD.txt cintasMTD_pruebas.txt
+
+Resultado esperado:
+- El primero debe mostrar: Tipo : AFD (detectado automaticamente)
+- El segundo debe mostrar: Tipo : MTD (detectado automaticamente)
+
+2) Error por AFD no determinista
+--------------------------------
+python simulador.py error_AFD_no_determinista.txt cintasAFD_pruebas.txt
+
+Esperado:
+- Debe fallar con mensaje similar a: Transicion duplicada AFD: (q0, a)
+
+3) Error por MTD no determinista
+--------------------------------
+python simulador.py error_MTD_no_determinista.txt cintasMTD_pruebas.txt
+
+Esperado:
+- Debe fallar con mensaje similar a: Transicion duplicada MTD: (0, _)
+
+4) Error por mezclar formatos AFD y MTD
+---------------------------------------
+python simulador.py error_mezcla_AFD_MTD.txt cintasAFD_pruebas.txt
+
+Esperado:
+- Debe fallar con mensaje sobre columnas inconsistentes.
+
+5) Error por movimiento invalido en MTD
+---------------------------------------
+python simulador.py error_MTD_movimiento_invalido.txt cintasMTD_pruebas.txt
+
+Esperado:
+- Debe fallar con mensaje similar a: Movimiento invalido 'd'. Use l, r o *.
+
+6) Error por AFD sin estados de aceptacion
+------------------------------------------
+python simulador.py error_AFD_sin_accept.txt cintasAFD_pruebas.txt
+
+Esperado:
+- Debe fallar con mensaje indicando que falta 'accept'.
