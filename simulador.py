@@ -1,3 +1,5 @@
+# Michael Alexander Arcos Murcia - 20242678046
+# Javier Santiago Ramirez Marin - 20242678010
 from __future__ import annotations  # Permite usar anotaciones de tipos modernas
 
 import argparse  # Para recibir parámetros desde la consola

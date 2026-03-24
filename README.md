@@ -1,5 +1,8 @@
 # Simulador MTD / AFD — Documentación
 
+# Michael Alexander Arcos Murcia - 20242678046
+# Javier Santiago Ramirez Marin - 20242678010
+
 ## ¿Qué es?
 
 Simulador por consola de **Máquina de Turing Determinista (MTD)** y **Autómata Finito Determinista (AFD)** escrito en Python. El simulador **detecta automáticamente** el tipo de máquina según la estructura del archivo de definición, sin necesidad de declarar el tipo explícitamente.
