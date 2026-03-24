@@ -23,6 +23,9 @@ python simulador.py ejemploMTD.txt cintasMTD.txt --max-steps 10000
 
 # Sin argumentos — corre los ejemplos incluidos
 python simulador.py
+
+#Para linux, para ejecutar alguno de los anteriores comandos se debe realizar escribiendo de la siguiente manera:
+python3 simulador.py ejemploMTD.txt cintasMTD.txt
 ```
 
 ---
