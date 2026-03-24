@@ -1,0 +1,4 @@
+start: q0
+
+q0 a q1
+q1 b q0

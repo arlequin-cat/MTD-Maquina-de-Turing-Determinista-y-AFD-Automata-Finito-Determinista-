@@ -1,0 +1,5 @@
+start: q0
+accept: q1
+
+q0 a q1
+0 _ x r 1

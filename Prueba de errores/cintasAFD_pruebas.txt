@@ -1,0 +1,23 @@
+# Pruebas funcionales AFD
+# El AFD de ejemplo acepta cadenas sobre {a,b} que terminan en 'ab'
+ab
+aab
+bab
+aaab
+aabab
+
+# Rechazadas
+
+a
+b
+ba
+abb
+baaa
+
+# Con simbolos fuera del alfabeto (deben rechazar por falta de transicion)
+c
+abc
+aacb
+
+# Cadena vacia: deja una linea en blanco
+
