@@ -1,5 +1,7 @@
 # Michael Alexander Arcos Murcia - 20242678046
 # Javier Santiago Ramirez Marin - 20242678010
+# Github con mas instrucciones de uso:
+# https://github.com/arlequin-cat/MTD-Maquina-de-Turing-Determinista-y-AFD-Automata-Finito-Determinista-
 from __future__ import annotations  # Permite usar anotaciones de tipos modernas
 
 import argparse  # Para recibir parámetros desde la consola
